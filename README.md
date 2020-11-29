@@ -5,7 +5,7 @@
 - How Many letter you want to delete from titles? (Only Integers)
 - How Many songs you want to proced? (Only Integers)
 
-After it you will have 3 seconds of clicking on first file :)
+After it you will have 3 seconds to click on first file :)
 
 <h1 align="center">Setup</h1> 
 
