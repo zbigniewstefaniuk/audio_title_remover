@@ -15,9 +15,13 @@ def deleting_letters(letters: int):
 
 
 def click():
-    letters_to_delete = int(input('How Many letter you want to delete?: '))
-    song_to_proced = int(input('How Many songs you want to proced?: '))
-    print('You got 3 second to click on the first song!')
+    while True:
+        try:
+            letters_to_delete = int(input('How Many letter you want to delete?: '))
+            song_to_proced = int(input('How Many songs you want to proced?: '))
+            print('You got 3 second to click on the first song!')
+        except ValueError:
+            print('Sorry but you typed wrong value :( Try again...')
 
     sleep(3)
 
